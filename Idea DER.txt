@@ -1,0 +1,84 @@
+::::: Columnas de Tabla Maestra :::::
+	   [Paciente_Nombre]
+      ,[Paciente_Apellido]
+      ,[Paciente_Dni]
+      ,[Paciente_Direccion]
+      ,[Paciente_Telefono]
+      ,[Paciente_Mail]
+      ,[Paciente_Fecha_Nac]
+      ,[Plan_Med_Codigo]
+      ,[Plan_Med_Descripcion]
+      ,[Plan_Med_Precio_Bono_Consulta]
+      ,[Plan_Med_Precio_Bono_Farmacia]
+      ,[Turno_Numero]
+      ,[Turno_Fecha]
+      ,[Consulta_Sintomas]
+      ,[Consulta_Enfermedades]
+      ,[Medico_Nombre]
+      ,[Medico_Apellido]
+      ,[Medico_Dni]
+      ,[Medico_Direccion]
+      ,[Medico_Telefono]
+      ,[Medico_Mail]
+      ,[Medico_Fecha_Nac]
+      ,[Especialidad_Codigo]
+      ,[Especialidad_Descripcion]
+      ,[Tipo_Especialidad_Codigo]
+      ,[Tipo_Especialidad_Descripcion]
+      ,[Compra_Bono_Fecha]
+      ,[Bono_Consulta_Fecha_Impresion]
+      ,[Bono_Consulta_Numero]
+	  
+	  
+:::::Tablas Posibles:::::
+		- Usuarios
+		- Empleado
+		- Paciente
+				<Paciente_ID>
+			    [Paciente_Nombre]
+			  ,[Paciente_Apellido]
+			  ,[Paciente_Dni]
+			  ,[Paciente_Direccion]
+			  ,[Paciente_Telefono]
+			  ,[Paciente_Mail]
+			  ,[Paciente_Fecha_Nac]
+			  ,[Plan_Med_Codigo]
+		- Plan Medico
+				<Plan_Med_Codigo>
+			  ,[Plan_Med_Descripcion]
+			  ,[Plan_Med_Precio_Bono_Consulta]
+			  ,[Plan_Med_Precio_Bono_Farmacia]
+		- Turno unido Consulta
+				 <Turno_Numero>
+				 [Medico_ID]
+				,[Turno_Fecha]
+				,[Consulta_Sintomas]
+				,[Consulta_Enfermedades]
+		- Tabla Muchos a Muchos Entre Medico y Plan
+				<Plan_Med_Codigo>
+				<Medico_ID>
+		- Medico
+				<Medico_ID>
+				[Medico_Nombre]
+			  ,[Medico_Apellido]
+			  ,[Medico_Dni]
+			  ,[Medico_Direccion]
+			  ,[Medico_Telefono]
+			  ,[Medico_Mail]
+			  ,[Medico_Fecha_Nac]
+			  ,[Especialidad_Codigo]
+		- Especialidad
+			  <Especialidad_Codigo>
+			  ,[Especialidad_Descripcion]
+		- Tipos Especialidades
+				<Tipo_Especialidad_Codigo>
+				,[Tipo_Especialidad_Descripcion]
+		- Bonos
+				<Bono_Consulta_Numero>
+				[Paciente_ID]
+				[Turno_Numero]
+				[Compra_Bono_Fecha]
+			  ,[Bono_Consulta_Fecha_Impresion]
+			   
+	  
+	  
