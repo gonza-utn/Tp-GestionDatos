@@ -1,14 +1,20 @@
 [RECORDAR Revisar Temas Consulta antes de Preguntar]
-• Quien Puede Deshabilitar/Habilitar/Modificar/Crear Roles? Los Administrativos?
 
-• Quien puede hacer ABM de afiliado? ¿Administrativo?
+1• Quien Puede Deshabilitar/Habilitar/Modificar/Crear Roles? Los Administrativos?
 
-• En base a las Estadisticas se entiende que el Plan afecta a los Profesionales que puede disponer una persona para un Turno.
+2• Quien puede hacer ABM de afiliado? ¿Administrativo?
+
+3• En base a las Estadisticas se entiende que el Plan afecta a los Profesionales que puede disponer una persona para un Turno.
 Nunca vi en el resto del enunciado que mencione nada al respecto
 
-• "Bono_Consulta_Fecha_Impresion" No entiendo que tiene, tiene fechas meses despues del turno.
+4• "Bono_Consulta_Fecha_Impresion" No entiendo que tiene, tiene fechas meses despues del turno.
 
-• ¿Como puede ser que ningun usuario tiene asignada una fecha de compro del bono?
+5• ¿Como puede ser que ningun usuario tiene asignada una fecha de compro del bono?
 
-• El enuciado nunca habla de un Bono Farmacia, para que sirve el campo"Plan_Med_Precio_Bono_Farmacia" ? Si no hay esos bonos
+6• El enuciado nunca habla de un Bono Farmacia, para que sirve el campo"Plan_Med_Precio_Bono_Farmacia" ? Si no hay esos bonos
 
+seguramente se debe referir a esto:
+"El plan básicamente consiste en el nivel de servicio que la clínica brindará a sus
+afiliados (en función de la cuota que el mismo abone), además de lo anteriormente
+expuesto se expresa en el plan el precio del bono que el afiliado deberá comprar para
+realizar las consultas o en el EXPENDIO DE LOS MEDICAMENTOS."
